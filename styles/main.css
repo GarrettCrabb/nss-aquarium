@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(to bottom right, lightblue, blue);
+}
+
+.fishList {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+}
+
+.fishCard {
+    margin: 15px;
+    width: 30%;
+    border: 1px black solid;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+}
+
+.fishImage {
+    width: 250px;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.martinImage {
+    width: 300px;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.qoutes {
+    border: 1px black solid;
+    border-radius: 15px;
+    margin: 20px 10px 20px 20px;
+    width: 40%;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.locations {
+    border: 1px black solid;
+    border-radius: 15px;
+    margin: 20px 20px 20px 10px;
+    width: 40%;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+
+.tipsWrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.tips {
+    border: 1px black solid;
+    border-radius: 15px;
+    margin: 20px 40px 20px 20px;
+    padding: 10px;
+    height: 300px;
+    width: 70%;
+    background-color: lightgray;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.martinCard {
+    border: 1px black solid;
+    background-color: lightgray;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.fishHeader {
+    text-align: center;
+}
